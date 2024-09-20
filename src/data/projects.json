@@ -9,7 +9,7 @@
             "/svg/json.svg"
         ],
         "images": [
-            "/public/img/Kronos.png"
+            "/img/Kronos.png"
         ],
         "url": ""
     },
@@ -24,7 +24,7 @@
             "/svg/mysql.svg"
         ],
         "images": [
-            "/public/img/Wordy.png"
+            "/img/Wordy.png"
         ],
         "url": ""
     },
@@ -39,7 +39,7 @@
             "/svg/javascript.svg"
         ],
         "images": [
-            "/public/img/Wordy.png"
+            "/img/Wordy.png"
         ],
         "url": ""
     },
@@ -60,7 +60,7 @@
             "/svg/docker.svg"
         ],
         "images": [
-            "/public/img/Wordy.png"
+            "/img/Wordy.png"
         ],
         "url": ""
     },
@@ -81,7 +81,7 @@
             "/svg/botpress.svg"
         ],
         "images": [
-            "/public/img/Wordy.png"
+            "/img/Wordy.png"
         ],
         "url": ""
     }
