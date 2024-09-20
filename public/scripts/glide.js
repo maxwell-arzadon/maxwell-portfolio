@@ -1,5 +1,5 @@
-import Glide from '@glidejs/glide';
-
+import Glide from '../node_modules/@glidejs/glide/dist/glide.esm.js';
+console.log("Initializing Glide...");
 const glide = new Glide('.glide', {
     type: 'carousel',
     perView: 1,
@@ -10,4 +10,6 @@ const glide = new Glide('.glide', {
     }
 });
 
+console.log("Glide instance:", glide);
 glide.mount();
+
