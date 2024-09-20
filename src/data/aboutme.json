@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Name",
+        "description": "Maxwell John Arzadon",
+        "icon": "/svg/person.svg"
+    },
+    {
+        "title": "Education",
+        "description": "Saint Louis University",
+        "icon": "/svg/graduate.svg"
+    },
+    {
+        "title": "Location",
+        "description": "Km. 4, Pico, La Trinidad, Benguet",
+        "icon": "/svg/location.svg"
+    },
+    {
+        "title": "MBTI",
+        "description": "INFP-T Mediator",
+        "icon": "/svg/brain.svg"
+    }
+]

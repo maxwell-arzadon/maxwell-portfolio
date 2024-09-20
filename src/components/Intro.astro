@@ -1,0 +1,42 @@
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+<div class="m-7 text-center lg:mt-5 lg:ml-5 lg:text-left">
+    <model-viewer
+        src="/public/models/chibi.glb"
+        alt="A 3D model of an object"
+        auto-rotate
+        camera-controls
+        ar
+        shadow-intensity="1"
+        style="width: 100%; height: 500px;">
+    </model-viewer>
+
+    <h2 class="font-semibold lg:text-left text-center text-3xl">
+        Hey there, <span class="underline">it's</span>
+    </h2>
+    <h1 class="font-black text-5xl text-new-blue lg:text-5xl lg:text-left text-center">
+        Maxwell John
+    </h1>
+    <h3 class="lg:text-2xl lg:text-left text-center text-xl">
+        Aspiring UI/UX designer and front-end developer with a passion for 
+        creativity and learning. Let’s build something great together!
+    </h3>
+
+    <!-- Button Container -->
+    <div class="mt-6 flex justify-center items-center lg:justify-start gap-4">
+        <a
+            href="/public/pdf/Arzadon_Maxwell John - Resume.pdf"
+            class="px-6 py-3 bg-transparent text-black font-semibold border border-black rounded-lg transition hover:bg-new-blue hover:border-new-blue hover:text-white hover:bg-new-blue-light"
+            target="_blank"
+        >
+            Resume
+        </a>
+        <a
+            href="public/pdf/ARZADON, MAXWELL JOHN_Portfolio.pdf"
+            class="px-6 py-3 bg-transparent text-black font-semibold border border-black rounded-lg transition hover:bg-new-blue hover:border-new-blue hover:text-white"
+            target="_blank"
+        >
+            Portfolio
+        </a>
+    </div>
+</div>

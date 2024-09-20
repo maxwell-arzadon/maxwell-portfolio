@@ -1,0 +1,39 @@
+---
+import socials from "../data/socials.json";
+---
+
+<div class="flex flex-col items-start justify-center p-4 md:p-5 xl:p-6 w-full h-full">
+  <h2 class="text-2xl font-bold mb-4 text-start pl-1">Socials</h2>
+  <ul class="grid grid-cols-1 gap-3 w-full h-full">
+    {socials.map((socials) => (
+      <li class="flex items-center group transition-transform duration-300 hover:scale-105 border border-black pl-4 p-2 rounded-lg hover:bg-new-blue hover:border-new-blue relative">
+        <a href={socials.url}>
+            <div class="flex flex-row items-stretch gap-5">
+            <div class="flex items-center justify-center">
+                <img
+                src={socials.icon}
+                alt={socials.name}
+                class="transition duration-300 group-hover:-translate-y-1 w-6 h-6 group-hover:invert"
+                />
+            </div>
+            <div>
+                <h3 class="transition font-bold duration-300 group-hover:translate-x-1 text-neutral-12 text-sm group-hover:text-white">
+                {socials.description}
+                </h3>
+                <div class="transition duration-300 group-hover:translate-x-px text-neutral-10 group-hover:text-neutral-11 text-xs group-hover:text-white">
+                {socials.name}
+                </div>
+            </div>
+            </div>
+        </a>
+        <div class="absolute right-0 w-24 h-24 opacity-0 transition-opacity duration-300 group-hover:opacity-25 group-hover:invert">
+          <img
+            src={socials.icon}
+            alt="Larger Icon"
+            class="w-full h-full"
+          />
+        </div>
+      </li>
+    ))}
+  </ul>
+</div>

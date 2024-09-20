@@ -1,0 +1,26 @@
+[
+    {
+        "name": "GitHub",
+        "description": "/maxwell-arzadon",
+        "url": "https://github.com/maxwell-arzadon",
+        "icon": "/svg/github.svg"
+    },
+    {
+        "name": "Facebook",
+        "description": "/maxwell.arzadon",
+        "url": "https://www.facebook.com/maxwell.arzadon/",
+        "icon": "/svg/facebook.svg"
+    },
+    {
+        "name": "LinkedIn",
+        "description": "/maxwell-john-arzadon",
+        "url": "https://www.linkedin.com/in/maxwell-john-arzadon/",
+        "icon": "/svg/linkedin.svg"
+    },
+    {
+        "name": "Email",
+        "description": "arzadonmaxwelljohn@gmail.com",
+        "url": "https://mail.google.com/mail/?view=cm&fs=1&to=arzadonmaxwelljohn@gmail.com",
+        "icon": "/svg/gmail.svg" 
+    }
+  ]

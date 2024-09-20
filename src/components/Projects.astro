@@ -1,0 +1,75 @@
+---
+import projectsData from '../data/projects.json';
+---
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.theme.min.css">
+<script type="module" src="/src/scripts/glide.js"></script>
+
+<div class="glide p-5 lg:p-24">
+    <h2 class="text-4xl font-bold mb-4 text-start pl-1">Academic Projects</h2>
+    <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+        {projectsData.map((project, index) => (
+            <li class="glide__slide">
+                <div class="flex flex-wrap md:flex-nowrap gap-3">
+                    <div class="w-full">
+                        <img src={project.images[0]} alt={project.name} class="w-full h-96 object-cover rounded-lg transition-all duration-300 grayscale hover:grayscale-0" />
+                    </div>
+                    <div class="flex flex-col p-4 w-full project-card">
+                        <div class="flex justify-between items-center">
+                            <h3 class="text-4xl font-bold">
+                            {project.name}
+                            </h3>
+                            <a href={project.url} class="group transition-transform duration-300 hover:scale-105 border border-black p-2 rounded-lg hover:bg-new-blue hover:border-new-blue relative">
+                                <img class="transition w-6 h-6 duration-300 group-hover:-translate-y-1 group-hover:invert" src="/public/svg/github.svg" alt="Github icon">
+                            </a>
+                        </div>
+                        <span class="font-light">
+                            {project.subtitle}
+                        </span> 
+                        <p class="pt-3 text-xl">
+                            {project.description}
+                        </p>
+                        <p class="pt-8 text-xl font-light italic">
+                            Role: {project.role}
+                        </p>
+                        
+                        <div class="pt-7 flex flex-wrap gap-2 ">
+                            {project.technologies.map((tech) => (
+                                <img src={tech} alt="Technology Icon" class="transition w-6 h-6 duration-300 hover:-translate-y-1"/>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </li>
+        ))}
+        </ul>
+        <div class="flex justify-end pt-2" data-glide-el="controls">
+            <button class="arrow glide__arrow--left" data-glide-dir="<">
+                <img class="hover:invert" src="/public/svg/left.svg" alt="Left Arrow">
+            </button>
+            <button class="arrow glide__arrow--right" data-glide-dir=">">
+                <img class="hover:invert" src="/public/svg/right.svg" alt="Right Arrow">
+            </button>
+        </div>
+    </div>
+</div>
+
+<style>
+    .project-card {
+        @apply border-2 border-black rounded-lg;
+    }
+
+    .arrow {
+        @apply border-2 border-black rounded-lg hover:bg-new-blue hover:border-new-blue w-10 ml-2;
+    }
+
+    .glide__slides {
+        @apply flex;
+    }
+
+    .glide__slide {
+        @apply  w-auto;
+    }
+</style>

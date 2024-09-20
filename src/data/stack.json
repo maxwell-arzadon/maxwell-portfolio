@@ -1,0 +1,42 @@
+[
+    {
+        "name": "HTML5",
+        "description": "Web Dev",
+        "icon": "/svg/html.svg"
+    },
+    {
+        "name": "CSS3",
+        "description": "Web Dev",
+        "icon": "/svg/css.svg"
+    },
+    {
+        "name": "JavaScript",
+        "description": "Web Dev",
+        "icon": "/svg/javascript.svg"
+    },
+    {
+        "name": "NodeJS",
+        "description": "Web Dev",
+        "icon": "/svg/node.svg"
+    },
+    {
+        "name": "TailwindCSS",
+        "description": "Front-end",
+        "icon": "/svg/tailwind.svg"
+    },
+    {
+        "name": "Astro",
+        "description": "Front-end",
+        "icon": "/svg/astro.svg"
+    },
+    {
+        "name": "React",
+        "description": "Front-end",
+        "icon": "/svg/react.svg"
+    },
+    {
+        "name": "Figma",
+        "description": "Design",
+        "icon": "/svg/figma.svg"
+    }
+]

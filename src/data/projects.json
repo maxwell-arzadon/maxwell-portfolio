@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Kronos",
+        "subtitle": "Time In Time Out",
+        "description": "A Java application developed using Remote Method Invocation (RMI) to monitor employee clock-in and clock-out times.",
+        "role": "Worked primarily on the client-side GUI and the database for the application's leaderboards.",
+        "technologies": [
+            "/svg/java.svg", 
+            "/svg/json.svg"
+        ],
+        "images": [
+            "/public/img/Kronos.png"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Wordy",
+        "subtitle": "Word Multiplayer Game",
+        "description": "A Java-based word game developed using CORBA for the backend, with two different client applications created in Java and Python.",
+        "role": "Worked primarily on the client-side GUI and the database for the application's leaderboards.",
+        "technologies": [
+            "/svg/java.svg", 
+            "/svg/python.svg",
+            "/svg/mysql.svg"
+        ],
+        "images": [
+            "/public/img/Wordy.png"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Animalphabet",
+        "subtitle": "Animal Search Engine",
+        "description": "A web application using JavaScript, HTML, and CSS to search for animals. Integrated the Animal API by Ninja API and YouTube Data API v3. Implemented dynamic content generation, multimedia display, and interactive search functionality to enhance user experience.",
+        "role": "Worked on the backend for sorting animal data and front-end design of the website.",
+        "technologies": [
+            "/svg/html.svg",
+            "/svg/css.svg",
+            "/svg/javascript.svg"
+        ],
+        "images": [
+            "/public/img/Wordy.png"
+        ],
+        "url": ""
+    },
+    {
+        "name": "Document Review System",
+        "subtitle": "SLU Document Reviewer",
+        "description": "A web application designed to facilitate employee document reviews at Saint Louis University. It includes requesters who submit documents, reviewers from various offices, and an admin who manages user accounts.",
+        "role": "Worked on the UI/UX design and front-end development, ensuring the website's responsiveness.",
+        "technologies": [
+            "/svg/html.svg",
+            "/svg/css.svg",
+            "/svg/javascript.svg",
+            "/svg/express.svg",
+            "/svg/pug.svg",
+            "/svg/bootstrap.svg",
+            "/svg/mysql.svg",
+            "/svg/php.svg",
+            "/svg/docker.svg"
+        ],
+        "images": [
+            "/public/img/Wordy.png"
+        ],
+        "url": ""
+    },
+    {
+        "name": "KapeLink",
+        "subtitle": "Online Ordering System with Chatbot",
+        "description": "A Progressive Web Application for online ordering at Benguet Coffee Project Cafe, with features for order tracking and a chatbot for FAQs.",
+        "role": "Working as a Backend Developer and in Quality Assurance.",
+        "technologies": [
+            "/svg/html.svg",
+            "/svg/css.svg",
+            "/svg/react.svg",
+            "/svg/node.svg",
+            "/svg/express.svg",
+            "/svg/mongodb.svg",
+            "/svg/tailwind.svg",
+            "/svg/insomnia.svg",
+            "/svg/botpress.svg"
+        ],
+        "images": [
+            "/public/img/Wordy.png"
+        ],
+        "url": ""
+    }
+]
