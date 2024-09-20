@@ -12,5 +12,5 @@
       "vite/client"
     ]
   },
-  "include": ["src"]
+  "include": ["src", "public/scripts"]
 }
