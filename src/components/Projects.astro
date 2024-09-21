@@ -70,6 +70,18 @@ import projectsData from '../data/projects.json';
     }
 
     .glide__slide {
-        @apply  w-auto;
+        opacity: 0; /* Start with all slides hidden */
+        transition: opacity 2s ease; /* Adjust duration and easing as needed */
     }
+
+    .glide__slide--active {
+        opacity: 1; /* Fully visible for the active slide */
+    }
+
+    .glide__slide--prev,
+    .glide__slide--next {
+        opacity: 0.5; /* Slightly transparent for adjacent slides */
+    }
+
+
 </style>

@@ -1,5 +1,19 @@
 [
     {
+        "name": "VitalWatch",
+        "subtitle": "Keeping You Alive",
+        "description": "The Vital Watch is a conceptual health-monitoring smartwatch, and we have developed a website to showcase its features, including real-time tracking of heart rate, body temperature, oxygen levels, food intake, blood pressure, and emergency response.",
+        "role": "Worked with the team in conceptualizing and building the website.",
+        "technologies": [
+            "/svg/html.svg", 
+            "/svg/css.svg"
+        ],
+        "images": [
+            "/img/VitalWatch.jpg"
+        ],
+        "url": ""
+    },
+    {
         "name": "Kronos",
         "subtitle": "Time In Time Out",
         "description": "A Java application developed using Remote Method Invocation (RMI) to monitor employee clock-in and clock-out times.",
@@ -39,7 +53,7 @@
             "/svg/javascript.svg"
         ],
         "images": [
-            "/img/Wordy.png"
+            "/img/animalphabet.png"
         ],
         "url": ""
     },
@@ -60,7 +74,7 @@
             "/svg/docker.svg"
         ],
         "images": [
-            "/img/Wordy.png"
+            "/img/documentreview.png"
         ],
         "url": ""
     },
