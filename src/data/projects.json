@@ -25,7 +25,7 @@
         "images": [
             "/img/Kronos.png"
         ],
-        "url": ""
+        "url": "https://github.com/maxwell-arzadon/employee-time-in-time-out"
     },
     {
         "name": "Wordy",
@@ -40,7 +40,7 @@
         "images": [
             "/img/Wordy.png"
         ],
-        "url": ""
+        "url": "https://github.com/maxwell-arzadon/wordy-game"
     },
     {
         "name": "Animalphabet",
@@ -55,7 +55,7 @@
         "images": [
             "/img/animalphabet.png"
         ],
-        "url": ""
+        "url": "https://github.com/maxwell-arzadon/animal-search-engine"
     },
     {
         "name": "Document Review System",
@@ -76,7 +76,7 @@
         "images": [
             "/img/documentreview.png"
         ],
-        "url": ""
+        "url": "https://github.com/maxwell-arzadon/document-review-system"
     },
     {
         "name": "KapeLink",
@@ -95,7 +95,7 @@
             "/svg/botpress.svg"
         ],
         "images": [
-            "/img/Wordy.png"
+            "/img/kapelink.png"
         ],
         "url": ""
     }
